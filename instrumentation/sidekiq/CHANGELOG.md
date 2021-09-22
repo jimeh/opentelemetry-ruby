@@ -1,5 +1,13 @@
 # Release History: opentelemetry-instrumentation-sidekiq
 
+### v0.20.0 / 2021-08-18
+
+* ADDED: Gracefully flush provider on sidekiq shutdown event 
+
+### v0.19.1 / 2021-08-12
+
+* (No significant changes)
+
 ### v0.19.0 / 2021-06-23
 
 * BREAKING CHANGE: Sidekiq propagation config 

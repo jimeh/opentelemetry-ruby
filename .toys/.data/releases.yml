@@ -35,6 +35,10 @@ gems:
     directory: instrumentation/action_view
     version_constant: [OpenTelemetry, Instrumentation, ActionView, VERSION]
 
+  - name: opentelemetry-instrumentation-action_pack
+    directory: instrumentation/action_pack
+    version_constant: [OpenTelemetry, Instrumentation, ActionPack, VERSION]
+
   - name: opentelemetry-instrumentation-active_job
     directory: instrumentation/active_job
     version_constant: [OpenTelemetry, Instrumentation, ActiveJob, VERSION]
@@ -150,6 +154,10 @@ gems:
   - name: opentelemetry-instrumentation-pg
     directory: instrumentation/pg
     version_constant: [OpenTelemetry, Instrumentation, PG, VERSION]
+
+  - name: opentelemetry-instrumentation-que
+    directory: instrumentation/que
+    version_constant: [OpenTelemetry, Instrumentation, Que, VERSION]
 
   - name: opentelemetry-instrumentation-rack
     directory: instrumentation/rack
